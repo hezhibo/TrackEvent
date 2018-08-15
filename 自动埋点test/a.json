@@ -1,0 +1,20 @@
+{
+    "eventStastistics":
+    {
+        "ViewController_test:":
+        {
+            "eventId":"sxj_01_004",
+            "eventName":"点击了ViewController的测试按钮"
+        },
+        "VerificationCodeView_voiceSmsButtonClick:":
+        {
+            "eventId":"sxj_01_008",
+            "eventName":"登录/注册-点击【收不到短信，试试语音验证码】按钮"
+        },
+        "manual_LoginView_popUp":
+        {
+            "eventId":"sxj_01_009",
+            "eventName":"登录/注册-进入弹窗"
+        },
+    }
+}

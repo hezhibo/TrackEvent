@@ -15,6 +15,10 @@
 		61386EA82123F998009C1BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61386EA72123F998009C1BD8 /* main.m */; };
 		61386EB22123F998009C1BD8 /* ____testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61386EB12123F998009C1BD8 /* ____testTests.m */; };
 		61386EBD2123F998009C1BD8 /* ____testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61386EBC2123F998009C1BD8 /* ____testUITests.m */; };
+		61386ED52123FC1A009C1BD8 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 61386ED42123FC1A009C1BD8 /* CommonUtility.m */; };
+		61386ED82123FCE9009C1BD8 /* UIControl+UserStastistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 61386ED72123FCE9009C1BD8 /* UIControl+UserStastistics.m */; };
+		61386EDC2124029F009C1BD8 /* a.json in Resources */ = {isa = PBXBuildFile; fileRef = 61386EDB2124029F009C1BD8 /* a.json */; };
+		61386EDF21240362009C1BD8 /* StastisticsUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 61386EDE21240362009C1BD8 /* StastisticsUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		61386EB82123F998009C1BD8 /* 自动埋点testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自动埋点testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61386EBC2123F998009C1BD8 /* ____testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____testUITests.m"; sourceTree = "<group>"; };
 		61386EBE2123F998009C1BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61386ED32123FC1A009C1BD8 /* CommonUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
+		61386ED42123FC1A009C1BD8 /* CommonUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
+		61386ED62123FCE9009C1BD8 /* UIControl+UserStastistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+UserStastistics.h"; sourceTree = "<group>"; };
+		61386ED72123FCE9009C1BD8 /* UIControl+UserStastistics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+UserStastistics.m"; sourceTree = "<group>"; };
+		61386EDB2124029F009C1BD8 /* a.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = a.json; sourceTree = "<group>"; };
+		61386EDD21240362009C1BD8 /* StastisticsUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StastisticsUtility.h; sourceTree = "<group>"; };
+		61386EDE21240362009C1BD8 /* StastisticsUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StastisticsUtility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +116,13 @@
 				61386E992123F996009C1BD8 /* AppDelegate.m */,
 				61386E9B2123F996009C1BD8 /* ViewController.h */,
 				61386E9C2123F996009C1BD8 /* ViewController.m */,
+				61386ED32123FC1A009C1BD8 /* CommonUtility.h */,
+				61386ED42123FC1A009C1BD8 /* CommonUtility.m */,
+				61386ED62123FCE9009C1BD8 /* UIControl+UserStastistics.h */,
+				61386ED72123FCE9009C1BD8 /* UIControl+UserStastistics.m */,
+				61386EDD21240362009C1BD8 /* StastisticsUtility.h */,
+				61386EDE21240362009C1BD8 /* StastisticsUtility.m */,
+				61386EDB2124029F009C1BD8 /* a.json */,
 				61386E9E2123F996009C1BD8 /* Main.storyboard */,
 				61386EA12123F998009C1BD8 /* Assets.xcassets */,
 				61386EA32123F998009C1BD8 /* LaunchScreen.storyboard */,
@@ -237,6 +255,7 @@
 			files = (
 				61386EA52123F998009C1BD8 /* LaunchScreen.storyboard in Resources */,
 				61386EA22123F998009C1BD8 /* Assets.xcassets in Resources */,
+				61386EDC2124029F009C1BD8 /* a.json in Resources */,
 				61386EA02123F996009C1BD8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +284,9 @@
 				61386E9D2123F996009C1BD8 /* ViewController.m in Sources */,
 				61386EA82123F998009C1BD8 /* main.m in Sources */,
 				61386E9A2123F996009C1BD8 /* AppDelegate.m in Sources */,
+				61386ED52123FC1A009C1BD8 /* CommonUtility.m in Sources */,
+				61386ED82123FCE9009C1BD8 /* UIControl+UserStastistics.m in Sources */,
+				61386EDF21240362009C1BD8 /* StastisticsUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
